@@ -4,6 +4,8 @@ public class FormatoDistancia
 {
 	public static void Main()
 	{
+		
+
 		//Introducir distancia
 		Console.WriteLine("Escribe la distancia :");
 		string distancia = Console.ReadLine();
@@ -28,6 +30,7 @@ public class FormatoDistancia
 			numeroProcesado = convertirDistancia + "m";
 		}
 	
+		Console.WriteLine("eso se representa como " + numeroProcesado);
 		
 	}
 }
