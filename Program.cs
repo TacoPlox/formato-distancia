@@ -17,7 +17,7 @@ public class FormatoDistancia
 
 		string numeroProcesado;
 
-		if (convertirDistancia < 0.0)
+		if (convertirDistancia < 1.0)
 		{
 			numeroProcesado = convertirDistancia * 100 + "cm";
 		}
